@@ -1,0 +1,21 @@
+Diference between Document and Window objects:
+
+Document:
+It represents the document loaded inside the window (or) browser.
+The properties related to it are stored in the document object.
+It is an object of window.
+It is the root element of the document object model.
+We can not access windows objects properties inside the document.
+logically:
+document:{properties}
+
+Window:
+It represents the browser window in which you are seeing the content.
+The properties related to it are stored in the window object.
+It is an object of the browser.
+The windows is the global element for all objects,function..etc.,
+We can access document object properties inside the window.
+logically:
+Window{
+    Document:{properties}
+}
